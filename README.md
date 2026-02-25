@@ -215,26 +215,26 @@ graph TD
 
 ## 📊 Performance
 
-Memory usage: ~50-100 MB during normal gameplay
+- **Memory usage**: ~50-100 MB during normal gameplay
 
-Save file size: 10-50 KB compressed
+- **Save file size**: 10-50 KB compressed
 
-World generation: < 1 second for medium worlds
+- **World generation**: < 1 second for medium worlds
 
-AI response time: < 100ms
+- **AI response time**: < 100ms
 
-Combat calculations: < 10ms per turn
+- **Combat calculations**: < 10ms per turn
 
 ---
 
 ## Acknowledgments
 
-Inspired by classic text adventures like Zork and Adventure
+- Inspired by classic text adventures like Zork and Adventure
 
-NPC personalities based on The Sims relationship system
+- NPC personalities based on The Sims relationship system
 
-Combat system inspired by classic RPGs like Final Fantasy
+- Combat system inspired by classic RPGs like Final Fantasy
 
-Quest system influenced by The Elder Scrolls series
+- Quest system influenced by The Elder Scrolls series
 
 ---
