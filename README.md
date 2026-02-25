@@ -166,7 +166,6 @@ ai-text-adventure/
 
 ## System Architecture Diagram
 
-```
 graph TD
     A[Main Game Loop] --> B[World Manager]
     A --> C[Combat System]
@@ -190,7 +189,6 @@ graph TD
     
     B --> Q[Location Generator]
     B --> R[Encounter System]
-```
 
 ---
 
