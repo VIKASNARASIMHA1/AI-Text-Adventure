@@ -166,7 +166,7 @@ ai-text-adventure/
 
 ## System Architecture Diagram
 
-<div class="mermaid">
+```mermaid
 graph TD
     A[Main Game Loop] --> B[World Manager]
     A --> C[Combat System]
@@ -209,12 +209,7 @@ graph TD
     class F,L,M inventory
     class G,N,O,P save
     class H,I ai
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>
-    mermaid.initialize({ startOnLoad: true });
-</script>
+```
 
 ---
 
