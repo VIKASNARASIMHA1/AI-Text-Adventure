@@ -166,6 +166,7 @@ ai-text-adventure/
 
 ## System Architecture Diagram
 
+<div class="mermaid">
 graph TD
     A[Main Game Loop] --> B[World Manager]
     A --> C[Combat System]
@@ -189,6 +190,31 @@ graph TD
     
     B --> Q[Location Generator]
     B --> R[Encounter System]
+
+    %% Styling
+    classDef main fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef world fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef combat fill:#ffebee,stroke:#b71c1c,stroke-width:2px
+    classDef quest fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    classDef npc fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef inventory fill:#e0f2f1,stroke:#004d40,stroke-width:2px
+    classDef save fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    classDef ai fill:#fff8e1,stroke:#ff6f00,stroke-width:2px
+
+    class A main
+    class B,Q,R world
+    class C combat
+    class D,J,K quest
+    class E,H,I npc
+    class F,L,M inventory
+    class G,N,O,P save
+    class H,I ai
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({ startOnLoad: true });
+</script>
 
 ---
 
