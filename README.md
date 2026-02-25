@@ -1,19 +1,5 @@
 # 🎮 AI Text Adventure
 
-  ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-  ![Python](https://img.shields.io/badge/python-3.8+-green.svg)
-  ![License](https://img.shields.io/badge/license-MIT-orange.svg)
-  ![Coverage](https://img.shields.io/badge/coverage-90%25-brightgreen.svg)
-  ![PRs](https://img.shields.io/badge/PRs-welcome-red.svg)
-  
-  ### *An intelligent, procedurally-generated text adventure game with AI-powered NPCs*
-  
-  [Features](#-features) • [Quick Start](#-quick-start) • [Gameplay](#-gameplay) • [Architecture](#-architecture) • [Contributing](#-contributing)
-  
-</div>
-
----
-
 ## 🎯 **Overview**
 
 AI Text Adventure Game is a sophisticated, Python-based interactive fiction game that combines **procedural generation**, **artificial intelligence**, and **complex game systems** to create a unique adventure every time you play. Unlike traditional text adventures, , this game features:
