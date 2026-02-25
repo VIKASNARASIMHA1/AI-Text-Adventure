@@ -79,6 +79,8 @@ python scripts/setup_data.py
 # 4. Start the game!
 python play.py
 
+```
+
 ### Basic Commands
 
 | Category    | Commands                                      | Description            |
