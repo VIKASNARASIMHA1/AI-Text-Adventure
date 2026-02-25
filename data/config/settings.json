@@ -1,0 +1,68 @@
+{
+  "player": {
+    "default_name": "Adventurer",
+    "allow_custom_name": true,
+    "remember_last_played": true
+  },
+  
+  "gameplay": {
+    "difficulty": "normal",
+    "show_tutorial": true,
+    "autosave_interval": 300,
+    "max_inventory_size": 30,
+    "enable_combat_animations": true,
+    "enable_critical_hits": true,
+    "friendly_fire": false
+  },
+  
+  "audio": {
+    "master_volume": 0.8,
+    "music_volume": 0.7,
+    "sfx_volume": 0.8,
+    "ambient_volume": 0.5,
+    "enable_music": true,
+    "enable_sfx": true,
+    "enable_ambient": true
+  },
+  
+  "display": {
+    "text_speed": "medium",
+    "color_enabled": true,
+    "screen_width": 80,
+    "screen_height": 24,
+    "font_size": 12,
+    "show_fps": false,
+    "fullscreen": false,
+    "ui_theme": "default"
+  },
+  
+  "accessibility": {
+    "high_contrast": false,
+    "large_text": false,
+    "colorblind_mode": "none",
+    "screen_reader": false,
+    "auto_center_text": true
+  },
+  
+  "language": {
+    "current": "en",
+    "fallback": "en",
+    "rtl_support": false
+  },
+  
+  "save_settings": {
+    "max_saves": 20,
+    "max_backups_per_save": 5,
+    "compress_saves": true,
+    "encrypt_saves": false,
+    "auto_backup": true,
+    "backup_interval_days": 7
+  },
+  
+  "network": {
+    "enable_updates": true,
+    "check_updates_on_start": true,
+    "send_anonymous_stats": false,
+    "update_server": "https://api.game.com/updates"
+  }
+}

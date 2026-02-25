@@ -1,0 +1,72 @@
+{
+  "movement": {
+    "north": ["w", "up"],
+    "south": ["s", "down"],
+    "east": ["d", "right"],
+    "west": ["a", "left"],
+    "up_stairs": "e",
+    "down_stairs": "q",
+    "wait": "."
+  },
+  
+  "combat": {
+    "attack": ["f", "space"],
+    "defend": "g",
+    "use_ability": "v",
+    "use_item": "u",
+    "flee": "r",
+    "target_enemy": "tab",
+    "cycle_target": "shift+tab"
+  },
+  
+  "interaction": {
+    "talk": "t",
+    "examine": "x",
+    "take": "g",
+    "drop": "d",
+    "use": "u",
+    "equip": "e",
+    "rest": "h"
+  },
+  
+  "inventory": {
+    "open_inventory": ["i", "tab"],
+    "sort_inventory": "ctrl+s",
+    "filter_items": "ctrl+f",
+    "compare_items": "c",
+    "split_stack": "ctrl+click"
+  },
+  
+  "quests": {
+    "open_quests": ["j", "q"],
+    "track_quest": "ctrl+t",
+    "abandon_quest": "ctrl+a",
+    "show_details": "enter"
+  },
+  
+  "map": {
+    "open_map": ["m", "tab"],
+    "zoom_in": "+",
+    "zoom_out": "-",
+    "place_marker": "ctrl+m",
+    "remove_marker": "ctrl+r"
+  },
+  
+  "system": {
+    "save": "ctrl+s",
+    "load": "ctrl+l",
+    "quick_save": "f5",
+    "quick_load": "f9",
+    "options": "escape",
+    "help": "f1",
+    "quit": "ctrl+q",
+    "screenshot": "f12"
+  },
+  
+  "chat": {
+    "open_chat": "enter",
+    "send_message": "enter",
+    "close_chat": "escape",
+    "chat_history": "pageup/pagedown"
+  }
+}

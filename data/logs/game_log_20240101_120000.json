@@ -1,0 +1,104 @@
+[
+  {
+    "timestamp": "2024-01-01T12:00:01.234",
+    "type": "game_start",
+    "session_id": "abc123def456",
+    "data": {
+      "player_name": "Hero",
+      "player_level": 1,
+      "game_version": "1.0.0",
+      "platform": "Windows",
+      "python_version": "3.9.0"
+    }
+  },
+  {
+    "timestamp": "2024-01-01T12:00:05.678",
+    "type": "command",
+    "data": {
+      "command": "look",
+      "location": "town_square",
+      "turn": 1
+    }
+  },
+  {
+    "timestamp": "2024-01-01T12:00:10.123",
+    "type": "interaction",
+    "data": {
+      "npc": "Greta",
+      "npc_role": "innkeeper",
+      "action": "talk",
+      "relationship_change": 1,
+      "dialogue_length": 45
+    }
+  },
+  {
+    "timestamp": "2024-01-01T12:05:00.456",
+    "type": "quest",
+    "data": {
+      "quest_id": "quest_delivery_001",
+      "quest_name": "Delivery for Greta",
+      "action": "accept",
+      "giver": "Greta"
+    }
+  },
+  {
+    "timestamp": "2024-01-01T12:10:00.789",
+    "type": "combat",
+    "data": {
+      "enemy_type": "goblin",
+      "enemy_level": 1,
+      "outcome": "victory",
+      "turns": 3,
+      "damage_taken": 8,
+      "damage_dealt": 25,
+      "xp_gained": 15,
+      "gold_gained": 8,
+      "loot": ["goblin_ear"]
+    }
+  },
+  {
+    "timestamp": "2024-01-01T12:15:00.012",
+    "type": "level_up",
+    "data": {
+      "old_level": 1,
+      "new_level": 2,
+      "stats_gained": {
+        "health": 10,
+        "mana": 5,
+        "strength": 2,
+        "defense": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2024-01-01T12:20:00.345",
+    "type": "achievement",
+    "data": {
+      "achievement_id": "first_blood",
+      "achievement_name": "First Blood",
+      "description": "Defeat your first enemy"
+    }
+  },
+  {
+    "timestamp": "2024-01-01T12:30:00.678",
+    "type": "save",
+    "data": {
+      "save_name": "my_first_save",
+      "save_type": "manual",
+      "file_size": 45678,
+      "turn_count": 150
+    }
+  },
+  {
+    "timestamp": "2024-01-01T13:00:00.901",
+    "type": "game_end",
+    "data": {
+      "play_time_seconds": 3600,
+      "turns_played": 350,
+      "enemies_defeated": 5,
+      "quests_completed": 1,
+      "gold_earned": 45,
+      "xp_gained": 120
+    }
+  }
+]

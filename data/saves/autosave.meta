@@ -1,0 +1,16 @@
+{
+  "save_name": "autosave",
+  "timestamp": "2024-01-03T14:35:00",
+  "player_name": "Hero",
+  "player_level": 7,
+  "player_class": "Warrior",
+  "location": "dragon_peak",
+  "play_time_turns": 1252,
+  "play_time_hours": 12.72,
+  "gold": 1250,
+  "achievements": 12,
+  "game_version": "1.0.0",
+  "save_type": "auto",
+  "checksum": "b58c9d4e0f3g2b6c7d8e9f0g1h2i3j4k",
+  "file_size_bytes": 45682
+}

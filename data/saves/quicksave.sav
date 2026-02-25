@@ -1,0 +1,70 @@
+# This is a binary file - showing the data structure for reference
+{
+  "player": {
+    "name": "Hero",
+    "level": 7,
+    "class": "Warrior",
+    "health": 85,
+    "max_health": 120,
+    "mana": 42,
+    "max_mana": 60,
+    "strength": 18,
+    "defense": 15,
+    "intelligence": 10,
+    "xp": 850,
+    "xp_to_next": 1000,
+    "gold": 1250,
+    "inventory": [
+      {"name": "Long Sword", "type": "weapon", "count": 1},
+      {"name": "Health Potion", "type": "potion", "count": 5},
+      {"name": "Leather Armor", "type": "armor", "count": 1},
+      {"name": "Dragon Scale", "type": "quest", "count": 3}
+    ],
+    "equipment": {
+      "main_hand": "Long Sword",
+      "chest": "Leather Armor",
+      "head": "Iron Helmet",
+      "feet": "Leather Boots"
+    },
+    "skills": ["power_attack", "shield_bash", "charge"],
+    "buffs": []
+  },
+  "world": {
+    "current_location": "dragon_peak",
+    "discovered_locations": [
+      "town_square", "tavern", "market", "blacksmith", 
+      "forest_path", "goblin_cave", "mountain_pass", "dragon_peak"
+    ],
+    "turn_count": 1247,
+    "day": 5,
+    "hour": 14,
+    "weather": "clear"
+  },
+  "quests": {
+    "active": [
+      {
+        "id": "quest_dragon_slayer",
+        "name": "Dragon Slayer",
+        "progress": 75,
+        "objectives": [
+          {"description": "Find the dragon's lair", "completed": true},
+          {"description": "Defeat the dragon", "completed": false},
+          {"description": "Collect dragon scale", "completed": true}
+        ]
+      }
+    ],
+    "completed": ["delivery_quest", "goblin_threat", "lost_heirloom"],
+    "failed": []
+  },
+  "npcs": {
+    "relationships": {
+      "Greta": 45,
+      "Elder Marcus": 78,
+      "Blacksmith Thorin": 32
+    }
+  },
+  "timestamp": "2024-01-03T14:30:00",
+  "play_time_seconds": 45600,
+  "game_version": "1.0.0",
+  "checksum": "a47b8c3d9e2f1a5b6c7d8e9f0a1b2c3d"
+}

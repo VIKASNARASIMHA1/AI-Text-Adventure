@@ -1,0 +1,169 @@
+{
+  "game_info": {
+    "title": "AI Text Adventure Game",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "website": "https://github.com/yourusername/ai-text-adventure",
+    "description": "An AI-powered text adventure game with procedural generation"
+  },
+  
+  "player": {
+    "max_level": 50,
+    "base_xp_per_level": 100,
+    "xp_multiplier": 1.5,
+    "max_health_per_level": 10,
+    "max_mana_per_level": 5,
+    "stat_points_per_level": 3,
+    "base_stats": {
+      "strength": 10,
+      "defense": 10,
+      "intelligence": 10,
+      "dexterity": 10,
+      "luck": 5
+    }
+  },
+  
+  "classes": {
+    "warrior": {
+      "health_multiplier": 1.2,
+      "mana_multiplier": 0.6,
+      "strength_bonus": 5,
+      "defense_bonus": 3,
+      "starting_skills": ["power_attack", "shield_bash"]
+    },
+    "mage": {
+      "health_multiplier": 0.8,
+      "mana_multiplier": 1.5,
+      "intelligence_bonus": 5,
+      "starting_skills": ["fireball", "magic_shield"]
+    },
+    "rogue": {
+      "health_multiplier": 0.9,
+      "mana_multiplier": 0.8,
+      "dexterity_bonus": 5,
+      "starting_skills": ["backstab", "evasion"]
+    },
+    "cleric": {
+      "health_multiplier": 1.0,
+      "mana_multiplier": 1.2,
+      "intelligence_bonus": 3,
+      "defense_bonus": 2,
+      "starting_skills": ["heal", "bless"]
+    }
+  },
+  
+  "difficulty": {
+    "easy": {
+      "damage_multiplier": 0.7,
+      "enemy_health_multiplier": 0.8,
+      "gold_multiplier": 1.3,
+      "xp_multiplier": 1.2,
+      "loot_multiplier": 1.3,
+      "flee_chance_multiplier": 1.5
+    },
+    "normal": {
+      "damage_multiplier": 1.0,
+      "enemy_health_multiplier": 1.0,
+      "gold_multiplier": 1.0,
+      "xp_multiplier": 1.0,
+      "loot_multiplier": 1.0,
+      "flee_chance_multiplier": 1.0
+    },
+    "hard": {
+      "damage_multiplier": 1.3,
+      "enemy_health_multiplier": 1.2,
+      "gold_multiplier": 0.8,
+      "xp_multiplier": 1.1,
+      "loot_multiplier": 0.8,
+      "flee_chance_multiplier": 0.7
+    },
+    "legendary": {
+      "damage_multiplier": 1.5,
+      "enemy_health_multiplier": 1.5,
+      "gold_multiplier": 0.6,
+      "xp_multiplier": 1.3,
+      "loot_multiplier": 0.6,
+      "flee_chance_multiplier": 0.5,
+      "permadeath": true
+    }
+  },
+  
+  "combat": {
+    "base_hit_chance": 85,
+    "critical_chance": 5,
+    "critical_multiplier": 2.0,
+    "dodge_chance": 5,
+    "block_chance": 5,
+    "flee_base_chance": 30,
+    "max_turns": 50,
+    "initiative_formula": "1d20 + dexterity",
+    "damage_types": ["physical", "fire", "ice", "lightning", "poison", "holy", "dark"]
+  },
+  
+  "economy": {
+    "starting_gold": 50,
+    "max_gold": 999999,
+    "shop_buy_multiplier": 1.2,
+    "shop_sell_multiplier": 0.6,
+    "interest_rate": 0.05,
+    "interest_interval_days": 7,
+    "tax_rate": 0.1,
+    "barter_multiplier": 1.0
+  },
+  
+  "world": {
+    "max_locations": 100,
+    "encounter_rate": 0.1,
+    "encounter_rate_night": 0.15,
+    "encounter_rate_dungeon": 0.2,
+    "day_length_hours": 24,
+    "weather_enabled": true,
+    "weather_types": ["clear", "rain", "storm", "snow", "fog"],
+    "season_enabled": true,
+    "seasons": ["spring", "summer", "fall", "winter"]
+  },
+  
+  "quests": {
+    "max_active": 20,
+    "max_completed": 100,
+    "daily_reset_hour": 0,
+    "reward_multiplier": 1.0,
+    "quest_types": ["kill", "collect", "delivery", "explore", "escort", "boss", "mystery"],
+    "difficulty_levels": ["trivial", "easy", "medium", "hard", "epic", "legendary"]
+  },
+  
+  "npc": {
+    "max_npcs_per_location": 10,
+    "relationship_decay_rate": 0.01,
+    "gossip_chance": 0.3,
+    "rumor_accuracy": 0.7,
+    "friendship_thresholds": {
+      "hostile": -50,
+      "unfriendly": -10,
+      "neutral": 0,
+      "friendly": 25,
+      "trusting": 50,
+      "ally": 80,
+      "lover": 95,
+      "family": 100
+    }
+  },
+  
+  "inventory": {
+    "max_weight": 100,
+    "max_slots": 30,
+    "stack_limit": 99,
+    "item_rarity": ["common", "uncommon", "rare", "epic", "legendary", "mythic"],
+    "equipment_slots": ["head", "chest", "legs", "feet", "hands", "main_hand", "off_hand", "neck", "finger", "back"]
+  },
+  
+  "save_system": {
+    "max_saves": 20,
+    "max_backups": 5,
+    "compress_saves": true,
+    "encrypt_saves": false,
+    "checksum_verify": true,
+    "auto_backup": true,
+    "backup_interval_minutes": 1440
+  }
+}

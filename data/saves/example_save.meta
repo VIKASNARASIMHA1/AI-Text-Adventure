@@ -1,0 +1,17 @@
+{
+  "save_name": "example_save",
+  "timestamp": "2024-01-02T18:00:00",
+  "player_name": "Hero",
+  "player_level": 5,
+  "player_class": "Warrior",
+  "location": "tavern",
+  "play_time_turns": 567,
+  "play_time_hours": 5.5,
+  "gold": 450,
+  "achievements": 8,
+  "game_version": "1.0.0",
+  "save_type": "manual",
+  "description": "Just before the big boss fight",
+  "checksum": "c69d0e5f1g4h3c7d8e9f0g1h2i3j4k5l",
+  "file_size_bytes": 23456
+}

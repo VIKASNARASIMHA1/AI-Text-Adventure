@@ -1,0 +1,16 @@
+{
+  "save_name": "quicksave",
+  "timestamp": "2024-01-03T14:30:00",
+  "player_name": "Hero",
+  "player_level": 7,
+  "player_class": "Warrior",
+  "location": "dragon_peak",
+  "play_time_turns": 1247,
+  "play_time_hours": 12.67,
+  "gold": 1250,
+  "achievements": 12,
+  "game_version": "1.0.0",
+  "save_type": "quick",
+  "checksum": "a47b8c3d9e2f1a5b6c7d8e9f0a1b2c3d",
+  "file_size_bytes": 45678
+}

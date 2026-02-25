@@ -1,0 +1,16 @@
+{
+  "save_name": "example_save_backup_2",
+  "original_save": "example_save",
+  "timestamp": "2024-01-02T18:00:00",
+  "player_name": "Hero",
+  "player_level": 5,
+  "player_class": "Warrior",
+  "location": "tavern",
+  "play_time_turns": 567,
+  "play_time_hours": 5.5,
+  "gold": 450,
+  "game_version": "1.0.0",
+  "backup_reason": "auto_backup",
+  "backup_number": 2,
+  "checksum": "e81f2g7h3i6j5e9f0g1h2i3j4k5l6m7n"
+}

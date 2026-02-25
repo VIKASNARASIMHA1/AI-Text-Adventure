@@ -1,0 +1,14 @@
+[2024-01-01 12:00:00] ERROR: Failed to load save file 'corrupted_save.sav' - Checksum mismatch (expected: a1b2c3d4, got: e5f6g7h8)
+[2024-01-01 12:00:01] WARNING: Attempted to load non-existent save 'missing_save.sav'
+[2024-01-01 12:05:00] ERROR: Combat system - Invalid enemy type 'unknown_monster' at line 234
+[2024-01-01 12:05:01] INFO: Recovered using default enemy type 'goblin'
+[2024-01-01 14:30:00] ERROR: World generation - Failed to create connection between 'forest' and 'cave' after 3 attempts
+[2024-01-01 14:30:01] INFO: Retrying with different algorithm - Success on attempt 4
+[2024-01-02 09:15:00] ERROR: Inventory system - Attempted to add item 'dragon_sword' to full inventory
+[2024-01-02 09:15:01] WARNING: Item dropped on ground instead
+[2024-01-02 15:45:00] ERROR: Quest system - Quest 'delivery_quest' has invalid objective type 'fly_to_moon'
+[2024-01-02 15:45:01] INFO: Quest marked as corrupted and removed from active list
+[2024-01-03 10:30:00] ERROR: Save system - Failed to create backup directory: Permission denied
+[2024-01-03 10:30:01] WARNING: Continuing without backup - save may be at risk
+[2024-01-03 11:20:00] CRITICAL: Memory leak detected in AI engine - 500MB used after 2 hours
+[2024-01-03 11:20:01] INFO: Forcing garbage collection - memory reduced to 250MB
